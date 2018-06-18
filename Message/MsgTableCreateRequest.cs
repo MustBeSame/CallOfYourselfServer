@@ -2,11 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace MessagesLib
 {
-    class MsgTableCreateRequest : Message
+    public class MsgTableCreateRequest : Message
     {
         private char QtdPlayers { get; set; }
         private char[] Password { get; set; }

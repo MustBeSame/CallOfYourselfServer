@@ -2,11 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace MessagesLib
 {
-    class Card
+    public class Card
     {
         public char IdCard { get; set; }
         public char IdTargetPlayer { get; set; }

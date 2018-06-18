@@ -2,11 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace MessagesLib
 {
-    class MsgPlayResponse : Message
+    public class MsgPlayResponse : Message
     {
         
         //public void addPlay(char idCard, char idTargetPlayer, char idCardTarget)

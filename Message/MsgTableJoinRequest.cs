@@ -2,11 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace MessagesLib
 {
-    class MsgTableJoinRequest : Message
+    public class MsgTableJoinRequest : Message
     {
         private char[] Password { get; set; }
         protected char[] IpPlayer { get; set; }

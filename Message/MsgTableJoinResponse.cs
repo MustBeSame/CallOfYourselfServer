@@ -2,11 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace MessagesLib
 {
-    class MsgTableJoinResponse : Message
+    public class MsgTableJoinResponse : Message
     {
         private char[] Hand { get; set; }
 

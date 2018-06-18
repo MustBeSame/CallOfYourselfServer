@@ -2,11 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
-
 namespace MessagesLib
 {
-    class MsgPlayRequest : Message
+    public class MsgPlayRequest : Message
     {
         private List<Card> Play { get; set; }
         
